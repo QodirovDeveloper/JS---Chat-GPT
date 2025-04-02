@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(120deg, #1b1b1b, #3a3a3a); /* Qorong‘i gradient fon */
+  overflow: hidden;
+}
+
+#chatbox {
+  width: 300px;
+  max-width: 90%;
+  padding: 10px;
+  border: 1px solid #555;
+  background: rgba(255, 255, 255, 0.9); /* Shaffof oq fon */
+  border-radius: 5px;
+  overflow-y: auto;
+  height: 300px;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background: #222;
+  color: white;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+
+
+
+/* body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #212121;
+}
+#chatbox {
+  width: 350px;
+  max-width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #171717;
+  color: white;
+  border-radius: 5px;
+  overflow-y: auto;
+  height: 300px;
+  margin-bottom: 10px;
+}
+input, button {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #ffffff;
+  background: #303030;
+}
+button {
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #218838;
+} */
